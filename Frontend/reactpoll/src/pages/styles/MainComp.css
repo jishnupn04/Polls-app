@@ -1,0 +1,15 @@
+.maincomp>#t1,
+.maincomp th,
+.maincomp td {
+  border: 1px solid black;
+}
+.maincomp th,
+.maincomp td {
+  padding: 15px;
+}
+.maincomp .tr {
+  background-color: lightblue;
+}
+.maincomp table {
+  margin: 20px 10px; 
+}

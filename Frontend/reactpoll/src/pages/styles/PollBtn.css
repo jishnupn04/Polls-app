@@ -1,0 +1,9 @@
+.PollBtn button {
+  text-align: center;
+  width:150px;
+  margin: 0 10px;
+  padding: 10px;
+  border: none;
+  color: white;
+  border-radius: 5px;  
+}

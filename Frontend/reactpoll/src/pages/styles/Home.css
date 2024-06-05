@@ -1,0 +1,27 @@
+.container1 {
+  display: flex;
+  gap: 20px;
+  width: 90%;
+  margin: 0 auto;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.heading {
+  padding: 20px;
+  width: 90%;
+  margin: 20px auto;
+}
+.container1 {
+  width: 90%;
+  margin: 0 auto;
+}
+@media screen and (max-width: 600px) {
+  .container1 {
+    width: 90%;
+    margin: 10px auto;
+    flex-direction: column;
+  }
+}

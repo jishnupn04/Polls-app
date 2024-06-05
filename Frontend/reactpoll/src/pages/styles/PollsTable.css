@@ -1,0 +1,54 @@
+.pollstable {
+  width: 100%;
+  max-width: 100%; /* specify the width of the container */
+  white-space: 'initial'; 
+  word-wrap: 'break-word';
+  overflow-wrap: break-word; /* allow the long words to be broken and wrap onto the next line */
+}
+
+.pollstable button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  color: inherit;
+  text-decoration:dashed;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+  white-space: 'initial'; 
+  word-wrap: 'break-word';
+  overflow-wrap: break-word;
+}
+
+.pollstable .MuiDataGrid-cell {
+  white-space: initial;
+  word-wrap:break-word;
+
+} 
+
+.pollstable .MuiDataGrid-columnHeaderTitle {
+  white-space: initial;
+  word-wrap:break-word;
+}
+@media screen and (max-width: 600px) {
+  .pollstable .MuiDataGrid-root {
+    font-size: 15px;
+  }
+
+  .pollstable .MuiDataGrid-cell {
+    padding: 4px;
+  }
+
+  .pollstable .MuiDataGrid-columnHeader {
+    padding: 4px;
+  }
+
+  .pollstable .MuiDataGrid-columnHeaderTitle {
+    font-size: 15px;
+  }
+
+  .pollstable .MuiDataGrid-footerContainer {
+    font-size: 15px;
+  }
+}
