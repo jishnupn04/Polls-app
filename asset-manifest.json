@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Polls-app/static/css/main.be04a7e0.css",
+    "main.js": "/Polls-app/static/js/main.58a0d79b.js",
+    "index.html": "/Polls-app/index.html",
+    "main.be04a7e0.css.map": "/Polls-app/static/css/main.be04a7e0.css.map",
+    "main.58a0d79b.js.map": "/Polls-app/static/js/main.58a0d79b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be04a7e0.css",
+    "static/js/main.58a0d79b.js"
+  ]
+}
